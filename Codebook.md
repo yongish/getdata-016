@@ -8,7 +8,7 @@ output: html_document
 ## Summary
 run_analysis.R does the following steps:
 
-  1. Download and unzip the data file.
+  1. Download and unzip the data if it hasn't been downloaded.
   2. Does a mapply() using an anonymous function to combine training and testing data from the training and testing directories.
   3. Names the data and variables using entries in features.txt and path names.
   4. Use grep and subsetting to extract only the measurements on the mean 
